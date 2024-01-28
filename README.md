@@ -17,7 +17,17 @@ The dot operator prints values to the standard output.
 30 30 30 30 + + . prints 90 
 ```
 
+## Build
 
+```console
+cc main.c -o main 
+.\main 
+```
+or 
+```console
+gcc main.c -o main
+.\main
+```
 
 
 
