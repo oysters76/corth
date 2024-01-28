@@ -2,7 +2,7 @@
 
 A simple math expression interpreter via a stack based memory approach in c. 
 
-## Examples: 
+## Examples
 ```console 
 30 30 + . 
     prints 60 
