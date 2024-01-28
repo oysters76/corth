@@ -16,6 +16,14 @@ The dot operator prints values to the standard output.
 ```console
 30 30 30 30 + + + . prints 120 
 ```
+Because 
+```
+    30 30 30 30 + + + . = ((30 (30 (30 30 +) +) +) .)
+                        = ((30 (30 60 +) +) .)
+                        = ((30 90 +) .)
+                        = (120 .)
+                        = 120
+```
 
 ## Build
 
