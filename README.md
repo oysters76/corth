@@ -14,7 +14,7 @@ A simple math expression interpreter via a stack based memory approach in c.
 The dot operator prints values to the standard output.
 
 ```console
-30 30 30 30 + + . prints 90 
+30 30 30 30 + + . prints 120 
 ```
 
 ## Build
